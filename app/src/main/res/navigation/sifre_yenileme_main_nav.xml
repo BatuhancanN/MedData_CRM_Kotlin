@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sifre_yenileme_main_nav"
+    app:startDestination="@id/sifre_yenileme_1">
+
+    <fragment
+        android:id="@+id/sifre_yenileme_1"
+        android:name="com.meddata.batuhan.crm.fragments.SifreYenileme1"
+        android:label="fragment_sifre_yenileme_1"
+        tools:layout="@layout/fragment_sifre_yenileme_1" >
+        <action
+            android:id="@+id/ikinciAsamaGecis"
+            app:destination="@id/sifre_yenileme_2"
+            app:enterAnim="@anim/fade_in" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sifre_yenileme_2"
+        android:name="com.meddata.batuhan.crm.fragments.SifreYenileme2"
+        android:label="fragment_sifre_yenileme_2"
+        tools:layout="@layout/fragment_sifre_yenileme_2" >
+
+        <!-- Burada argümanlar tanımlanıyor -->
+        <argument
+            android:name="tckn"
+            app:argType="string"
+            android:defaultValue="-" />
+
+        <action
+            android:id="@+id/ucuncuAsamaGecis"
+            app:destination="@id/sifre_yenileme_3"
+            app:enterAnim="@anim/fade_in" />
+        <argument
+            android:name="loginame"
+            app:argType="string"
+            android:defaultValue="-" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sifre_yenileme_3"
+        android:name="com.meddata.batuhan.crm.fragments.SifreYenileme3"
+        android:label="fragment_sifre_yenileme_3"
+        tools:layout="@layout/fragment_sifre_yenileme_3" >
+        <argument
+            android:name="loginame"
+            app:argType="string"
+            android:defaultValue="-" />
+    </fragment>
+</navigation>

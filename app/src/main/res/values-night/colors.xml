@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pageBg">#18dcff</color>
+    <color name="button">#2c3e50</color>
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="listHightlighter">#bdc3c7</color>
+
+
+    <color name="primary">#013ca6</color>
+    <color name="secondary">#2754ba</color>
+
+    <color name="baslikPrimary">#013ca6</color>
+    <color name="BaslikSecondary">#2754ba</color>
+
+    <color name="ikonRenk">#FFFFFF</color>
+
+    <color name="cardRenk">#8e44ad</color>
+
+    <color name="detayMetin">#ffffff</color>
+
+    <color name="detayBackground">#34495e</color>
+
+    <color name="logoBackground">#ffffff</color>
+
+    <color name="redPrimary">#c0392b</color>
+</resources>
