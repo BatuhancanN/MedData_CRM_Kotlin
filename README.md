@@ -67,7 +67,7 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=I4T84gs4SoY" target="_blank">
-    <img src="/README_IMAGES/13.jpg" alt="Video Thumbnail 13" width="40%">
+    <img src="/README_IMAGES/13.jpg" alt="Video Thumbnail 13" width="60%">
   </a>
 </p>
 
