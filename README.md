@@ -70,3 +70,5 @@
     <img src="/README_IMAGES/13.jpg" alt="Video Thumbnail 13" width="40%">
   </a>
 </p>
+
+Şirket politikaları nedeniyle PHP web service kodlarını ve veri ile ilgili .kt class'larını paylaşamıyorum. Yakın zamanda Buna benzer kişisel projelerimi tamamen şeffaf bir şekilde paylaşacağım.
